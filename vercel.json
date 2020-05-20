@@ -4,7 +4,7 @@
     "github": { "silent": true },
     "version": 2,
     "redirects": [
-      { "source": "/([0-9]+)/([0-9]+)/:id", "destination": "https://nzws.me/blog/:id#from-blog-nzws-me" },
+      { "source": "/([0-9]+)/([0-9]+)/(.*)", "destination": "https://nzws.me/blog/$3#from-blog-nzws-me" },
       { "source": "/(.*)", "destination": "https://nzws.me/blog#from-blog-nzws-me" }
     ]
 }
